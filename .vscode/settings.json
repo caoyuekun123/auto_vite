@@ -1,0 +1,29 @@
+{
+  // 拼写检查器
+  "cSpell.words": ["Vitesse", "Vite", "unocss", "vitest", "vueuse", "pinia", "demi", "antfu", "iconify", "intlify", "vitejs", "unplugin", "pnpm"],
+  // 指定国际化i-18n的源语言
+  "i18n-ally.sourceLanguage": "zh-CN",
+
+  "i18n-ally.keystyle": "nested",
+  // 指定i-18n语言文件的路径
+  "i18n-ally.localesPaths": "locales",
+
+  "i18n-ally.sortKeys": true,
+
+  // 控制是否启用Prettier格式化器
+  "prettier.enable": false,
+  // 控制保存文件时执行的一些操作
+  "editor.codeActionsOnSave": {
+    // 在保存时格式化代码
+    "source.fixAll.eslint": "explicit"
+  },
+  // 配置文件扩展名与语言之间的关联
+  "files.associations": {
+    // 将css文件关联到postcss语言模式
+    "*.css": "postcss"
+  },
+  // 指定保存文件时是否自动格式化代码
+  "editor.formatOnSave": false,
+  // 指定ts语言服务的路径
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
